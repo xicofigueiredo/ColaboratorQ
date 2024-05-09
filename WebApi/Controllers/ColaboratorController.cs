@@ -22,14 +22,14 @@ namespace WebApi.Controllers
             _colaboratorService = colaboratorService;
         }
 
-        // // GET: api/Colaborator
-        // [HttpGet]
-        // public async Task<ActionResult<IEnumerable<ColaboratorDTO>>> GetColaborators()
-        // {
-        //     IEnumerable<ColaboratorDTO> colabsDTO = await _colaboratorService.GetAllWithAddress();
+        // GET: api/Colaborator
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ColaboratorDTO>>> GetColaborators()
+        {
+            IEnumerable<ColaboratorDTO> colabsDTO = await _colaboratorService.GetAllWithAddress();
 
-        //     return Ok(colabsDTO);
-        // }
+            return Ok(colabsDTO);
+        }
 
 
         // // GET: api/Colaborator/5

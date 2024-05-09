@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VrFnQ9xEFCuv2D4lKHn5mjJs6m9n1taacUVtK0ml5iWvvQMZxoo14EWzMH6330BkTQUGZykJe89sBOEjIe+p4w==",
+  "dgSpecHash": "uFWqCLAVvqQAUzKQdtkC0fY2LIMUt+UVPGh7jEDI6p2xKGC2ALUy5OGEZA0NX0U58uILIEEoqC6Ncfsp0CnA3A==",
   "success": true,
-  "projectFilePath": "C:\\Works\\ColaboratorQ\\webapi\\WebApi.csproj",
+  "projectFilePath": "C:\\Works\\ColaboratorQ\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\naguiar\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\naguiar\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

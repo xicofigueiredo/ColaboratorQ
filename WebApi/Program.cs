@@ -10,7 +10,16 @@ using Microsoft.OpenApi.Any;
 
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
 string queueName = args.Length > 0 ? args[0] : "colab_logs";
 var port = GetPortForQueue(queueName);
 
@@ -62,6 +71,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseCors("AllowAllOrigins");
 
 
 var rabbitMQConsumerService = app.Services.GetRequiredService<IColaboratorConsumer>();

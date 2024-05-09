@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Works\\ColaboratorQ\\webapi\\WebApi.csproj": {}
+    "C:\\Works\\ColaboratorQ\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
     "C:\\Works\\ColaboratorQ\\Application\\Application.csproj": {
@@ -229,14 +229,14 @@
         }
       }
     },
-    "C:\\Works\\ColaboratorQ\\webapi\\WebApi.csproj": {
+    "C:\\Works\\ColaboratorQ\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Works\\ColaboratorQ\\webapi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Works\\ColaboratorQ\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Works\\ColaboratorQ\\webapi\\WebApi.csproj",
+        "projectPath": "C:\\Works\\ColaboratorQ\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\naguiar\\.nuget\\packages\\",
-        "outputPath": "C:\\Works\\ColaboratorQ\\webapi\\obj\\",
+        "outputPath": "C:\\Works\\ColaboratorQ\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\naguiar\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -24,4 +24,9 @@
     <ProjectReference Include="..\DataModel\DataModel.csproj" />
     <ProjectReference Include="..\Application\Application.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+   <InternalsVisibleTo Include="WebApi.IntegrationTest" />
+  </ItemGroup>
+
 </Project>

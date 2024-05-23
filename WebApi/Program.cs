@@ -10,6 +10,7 @@ using Microsoft.OpenApi.Any;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins",
@@ -51,12 +52,6 @@ builder.Services.AddTransient<ColaboratorMapper>();
 builder.Services.AddTransient<ColaboratorService>();
 builder.Services.AddSingleton<IColaboratorConsumer, ColaboratorConsumer>();
 
-
-
-
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -84,7 +79,10 @@ static int GetPortForQueue(string queueName)
 {
     // Implement logic to map queue name to a unique port number
     // Example: Assign a unique port number based on the queue name suffix
-    int basePort = 5000; // Start from port 5000
-    int queueIndex = int.Parse(queueName.Substring(1)); // Extract the numeric part of the queue name (assuming it starts with 'Q')
-    return basePort + queueIndex;
+    // int basePort = 5000; // Start from port 5000
+    // int queueIndex = int.Parse(queueName.Substring(1)); // Extract the numeric part of the queue name (assuming it starts with 'Q')
+    // return basePort + queueIndex;
+     return 5000;
 }
+
+public partial class Program { }
